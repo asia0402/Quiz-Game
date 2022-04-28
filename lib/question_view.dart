@@ -4,7 +4,7 @@ class QuestionView extends StatefulWidget {
   final List<String> answers;
   final String question;
   final String image;
-  final int correct;
+  final String correct;
   final Function onSelect;
   int selectedAnswer = -1;
   QuestionView(this.question, this.image, this.answers, this.correct, this.onSelect, {Key? key}) : super(key: key);
@@ -41,18 +41,29 @@ class QuestionViewState extends State<QuestionView> {
               padding: const EdgeInsets.only(left: 8.0, right: 8.0),
               itemCount: widget.answers.length,
               itemBuilder: (BuildContext context, int index) {
+                Color buttonColor = const Color(0xfffca311);
+                if (widget.selectedAnswer >= 0) { // any answer was selected
+                  if (index == widget.selectedAnswer) { // this button is selected button
+                    if (widget.answers[index] == widget.correct) { // is correct answer
+                      buttonColor = Colors.green;
+                    }
+                    else { // if not correct answer
+                      buttonColor = Colors.red;
+                    }
+                  }
+                  else if (widget.answers[index] == widget.correct) { // not selected button, but correct answer
+                    buttonColor = Colors.green;
+                  }
+                }
+
                 return ElevatedButton(
                   style: ButtonStyle(
-                    backgroundColor: (widget.selectedAnswer >= 0)
-                      ? (widget.selectedAnswer == index || index == widget.correct)
-                        ? MaterialStateProperty.all(index == widget.correct ? Colors.green : Colors.red)
-                        : MaterialStateProperty.all(const Color(0xfffca311))
-                      : MaterialStateProperty.all(const Color(0xfffca311))
+                    backgroundColor: MaterialStateProperty.all(buttonColor)
                   ),
                   onPressed: widget.selectedAnswer >= 0 ? null : () {
                     setState(() {
                       widget.selectedAnswer = index;
-                      widget.onSelect(widget.selectedAnswer == widget.correct);
+                      widget.onSelect(widget.answers[widget.selectedAnswer] == widget.correct);
                     });
                   }, 
                   child: Center(

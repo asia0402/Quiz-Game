@@ -23,7 +23,7 @@ class GameMenagerState extends State<GameMenager> {
   String currentQuestion = "";
   String currentPhoto = "https://zooart.com.pl/blog/wp-content/uploads/2021/04/miesozerne-ryby-akwariowe.jpg";
   List<String> currentAnswers = [];
-  int currentCorrect = -1;
+  String currentCorrect = "";
   int maxScore = 0;
   int score = 0;
   bool endOfGame = false;
@@ -51,7 +51,7 @@ class GameMenagerState extends State<GameMenager> {
       questions.clear();
       List<dynamic> listJson = questionsJson["categories"][selectedCategory]["questions"];
       for (var json in listJson) {
-        Question question = Question(json["question"] as String, json["photo"] as String, List<String>.from(json["answers"]), json["correct"] as int);
+        Question question = Question(json["question"] as String, json["photo"] as String, List<String>.from(json["answers"]), json["correct"] as String);
         questions.add(question);
       }
       maxScore = questions.length;
@@ -102,6 +102,7 @@ class GameMenagerState extends State<GameMenager> {
     if (endOfGame) {
       return ResultView(score, maxScore, onBackToCategoryView);
     }
+    currentAnswers.shuffle();
     return SizedBox(
       height: MediaQuery.of(context).size.height,
       child: Column(
