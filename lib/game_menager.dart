@@ -7,6 +7,7 @@ import 'package:quizgame/question_view.dart';
 import 'package:quizgame/result_view.dart';
 import 'package:quizgame/score_view.dart';
 import 'package:quizgame/selected_category.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 class GameMenager extends StatefulWidget {
   const GameMenager({Key? key}) : super(key: key);
@@ -27,9 +28,13 @@ class GameMenagerState extends State<GameMenager> {
   int maxScore = 0;
   int score = 0;
   bool endOfGame = false;
+  AudioPlayer audioPlayer = AudioPlayer();
+  AudioCache player = AudioCache();
 
   @override
   void initState() {
+    player = AudioCache(fixedPlayer: audioPlayer);
+    player.loop('bensound-buddy.mp3', volume: 0.2);
     loadQuestions();
     super.initState();
   }
@@ -97,9 +102,18 @@ class GameMenagerState extends State<GameMenager> {
   @override
   Widget build(BuildContext context) {
     if (selectedCategory == null) {
+      audioPlayer.stop();
+      player.loop('bensound-buddy.mp3', volume: 0.2);
       return SelectedCategory(categories, setCategory);
     }
     if (endOfGame) {
+      audioPlayer.stop();
+      if (score >= 10) {
+        player.play('yay.mp3', volume: 1.0);
+      }
+      else {
+        player.play('boo.mp3', volume: 1.0);
+      }
       return ResultView(score, maxScore, onBackToCategoryView);
     }
     currentAnswers.shuffle();
