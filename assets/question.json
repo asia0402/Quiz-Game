@@ -1,0 +1,479 @@
+{
+	"categories": {
+		"animals": {
+			"name": "Zwierzęta",
+			"questions": [
+				{
+					"question": "Jak nazywa się ryba na zdjęciu?",
+					"photo": "bojownik.jpg",
+					"answers": ["Bojownik", "Bocja", "Szczupak", "Akara błękitna"],
+					"correct": 0
+				},
+				{
+					"question": "Która z wymienionych ryb jest największa?",
+					"photo": "rybka.jpg",
+					"answers": ["Karp", "Amur", "Szczupak", "Sum"],
+					"correct": 3
+				},
+				{
+					"question": "Czy szczupak jest rybą drapieżną?",
+					"photo": "szczupak.jpg",
+					"answers": ["Tak", "Nie"],
+					"correct": 0
+				},
+				{
+					"question": "Gdzie żyją kangury?",
+					"photo": "kangur.jpg",
+					"answers": ["Europa", "Azja", "Australia", "Ameryka Północna"],
+					"correct": 2
+				},
+				{
+					"question": "Jaki jest największy ssak na świecie?",
+					"photo": "leniwiec.jpg",
+					"answers": ["Leniwiec", "Płetwal błękitny", "Słoń", "Sum"],
+					"correct": 1
+				},
+				{
+					"question": "Które zwięrzę ma grzywę?",
+					"photo": "kot.jpg",
+					"answers": ["Kot", "Tygrys", "Lew", "Gepard"],
+					"correct": 2
+				},
+				{
+					"question": "Które zwięrzę nie jest gadem?",
+					"photo": "gady.jpg",
+					"answers": ["Jaszczurka zwinka", "Żmija zygzakowata", "Salamandra plamista", "Żółw błotny"],
+					"correct": 2
+				},
+				{
+					"question": "Który łańcuch pokarmowy jest poprawny?",
+					"photo": "przyroda.jpg",
+					"answers": ["Ziemniak > Stonka > Bażant > Lis", "Bażant > Pszenica > Lis", "Trawa > Lis > Zając"],
+					"correct": 0
+				},
+				{
+					"question": "Jakie zwierzę przedstawia zdjęcie?",
+					"photo": "gekon-lamparci.jpg",
+					"answers": ["Salamandra plamista", "Gekon lamparci", "Gekon orzęsiony", "Agama brodata"],
+					"correct": 1
+				},
+				{
+					"question": "Największy kot europejski, żyjący również w Polsce, to:?",
+					"photo": "koty.jpg",
+					"answers": ["Irbis", "Żbik", "Ryś", "Jenot"],
+					"correct": 2
+				},
+				{
+					"question": "Które z wymienionych pozniżej zwierząt nie posiada poroża albo rogów?",
+					"photo": "poroze.jpg",
+					"answers": ["Burunduk", "Jeleń", "Daniel"],
+					"correct": 0
+				},
+				{
+					"question": "Które zwięrzę zaliczane jest do padlinożerców?",
+					"photo": "afryka.jpg",
+					"answers": ["Lampart", "Tygrys", "Hiena centkowana", "Gepard"],
+					"correct": 2
+				},
+				{
+					"question": "Jaka jest różnica między dziobakami i kolczatkami a innymi ssakami?",
+					"photo": "dziobak.jpg",
+					"answers": ["Są jajorodne", "Posiadają łuski", "Są zmiennocieplne", "Mają pióra"],
+					"correct": 0
+				},
+				{
+					"question": "Jak nazywa się największy rodzaj gryzonia żyjący w Ameryce Południowej?",
+					"photo": "ameryka-pld.jpg",
+					"answers": ["Chomik olbrzymi", "Kapibara", "Szczur wędrowny", "Świnka morska"],
+					"correct": 1
+				},
+				{
+					"question": "Zwierzę ze zdjęcia to:",
+					"photo": "bawol.jpg",
+					"answers": ["Takin złoty", "Bawół", "Byk", "Antylopa"],
+					"correct": 1
+				}
+			]
+		},
+		"geography": {
+			"name": "Geografia",
+			"questions": [
+				{
+					"question": "Stolicą Azerbejdżanu jest:",
+					"photo": "flaga-azerbejdzanu.jpg",
+					"answers": ["Berlin", "Baku", "Tiramisu", "Ułan Bator"],
+					"correct": 1
+				},
+				{
+					"question": "Który kraj nie znajduje się w Europie?",
+					"photo": "mapa-europy.jpg",
+					"answers": ["Czarnogóra", "Turcja", "Armenia", "Andora"],
+					"correct": 2
+				},
+				{
+					"question": "Który ocean jest największy?",
+					"photo": "mapa-swiata.jpg",
+					"answers": ["Ocean Atlantycki", "Ocean Indyjski", "Ocean Spokojny"],
+					"correct": 2
+				},
+				{
+					"question": "Największą pustynią na świecie jest:",
+					"photo": "pustynia.jpg",
+					"answers": ["Gobi", "Sahara", "Namib", "Arabska"],
+					"correct": 1
+				},
+				{
+					"question": "Skala Beauforta służy do określania:",
+					"photo": "sztorm.jpg",
+					"answers": ["Wielkości fal", "Poziomu intensywności tornada", "Siły wiatru"],
+					"correct": 2
+				},
+				{
+					"question": "Republika Zielonego Przylądka leży na oceanie:",
+					"photo": "wyspa.jpg",
+					"answers": ["Indyjskim", "Atlantykim", "Spokojnym"],
+					"correct": 1
+				},
+				{
+					"question": "Na której półkuli znajduje się zwrotnik Koziorożca?",
+					"photo": "zwrotnik.jpg",
+					"answers": ["Południowej", "Północnej", "Zachodniej", "Wschodniej"],
+					"correct": 0
+				},
+				{
+					"question": "Rysy to najwyższy szczyt Polski i wznosi się na wysokość:",
+					"photo": "rysy.jpg",
+					"answers": ["2500 m n.p.m", "2499 m n.p.m", "2501 m n.p.m", "2498 m n.p.m"],
+					"correct": 1
+				},
+				{
+					"question": "Co jest stolicą Turcji?",
+					"photo": "turcja.jpg",
+					"answers": ["Stambuł", "Ankara", "Antalya", "Izmir"],
+					"correct": 1
+				},
+				{
+					"question": "Która góra świata jest najwyższa?",
+					"photo": "gory.jpg",
+					"answers": ["K2", "Mont Blanc", "Mount Everest", "Kilimandżaro"],
+					"correct": 2
+				},
+				{
+					"question": "Która z wymienionych rzek znajdujących się w Europie jest najdłuższa?",
+					"photo": "rzeka.jpg",
+					"answers": ["Wisła", "Wołga", "Dunaj", "Sekwana"],
+					"correct": 1
+				},
+				{
+					"question": "Co określa lokalizacje na północ lub południe od równika?",
+					"photo": "rownik.jpg",
+					"answers": ["Długość geograficzna", "Szerokość geograficzna"],
+					"correct": 1
+				},
+				{
+					"question": "Cieśnina Beringa znajduje się pomiędzy: ",
+					"photo": "ciesnina-beringa.jpg",
+					"answers": ["Alaską i Rosją", "Maroko i Hiszpanią", "Malezją i Indonezją"],
+					"correct": 0
+				},
+				{
+					"question": "Ile kilometrów ma równik?",
+					"photo": "rownik2.jpg",
+					"answers": ["Około 60 000 km", "Około 30 000 km", "Około 40 000 km", "Około 50 000 km"],
+					"correct": 2
+				},
+				{
+					"question": "Czy na świecie jest więcej niż 150 państw?",
+					"photo": "swiat.jpg",
+					"answers": ["Nie", "Tak"],
+					"correct": 1
+				}
+			]
+		},
+		"history": {
+			"name": "Historia",
+			"questions": [
+				{
+					"question": "Kto dowodził siłami krzyżackimi w bitwie pod Grunwaldem?",
+					"photo": "bitwa-pod-grunwaldem.jpg",
+					"answers": ["Ulrich von Jungingen", "Konrad von Jungingen", "Zawisza Czarny", "Kuno von Lichtenstein"],
+					"correct": 0
+				},
+				{
+					"question": "W którym roku wybuchła I wojna światowa?",
+					"photo": "I-wojna.jpg",
+					"answers": ["1905", "1914", "1918", "1939"],
+					"correct": 1
+				},
+				{
+					"question": "Podstawy demokracji opracowane zostały w:",
+					"photo": "demokracja.jpg",
+					"answers": ["Rzymie", "Grecji", "Egipcie", "Stanach Zjednoczonych"],
+					"correct": 1
+				},
+				{
+					"question": "Z jakim krajem Polska utworzyła Rzeczpospolitą Obojga Narodów?",
+					"photo": "rzeczpospolita-obojga-narodow.jpg",
+					"answers": ["Ukrainą", "Rusią Białą", "Węgrami", "Litwą"],
+					"correct": 3
+				},
+				{
+					"question": "Kto zastał Polskę drewnianą, a zostawił murowaną?",
+					"photo": "kazimierz-wielki.jpg",
+					"answers": ["Kazimierz Odnowiciel", "Kazimierz Wielki", "Stefan Batory", "Władysław Jagiełło"],
+					"correct": 1
+				},
+				{
+					"question": "W którym roku odbył się chrzest Polski?",
+					"photo": "chrzest-polski.jpeg",
+					"answers": ["1000", "966", "996", "976"],
+					"correct": 1
+				},
+				{
+					"question": "Z jakim krajem walczyła Polska w Bitwie Warszawskiej w 1920?",
+					"photo": "bitwa-warszawska.jpg",
+					"answers": ["Z Prusami", "Z Austro-Węgrami", "Z Czechami", "Z Rosją Bolszewicką"],
+					"correct": 3
+				},
+				{
+					"question": "W którym roku nastąpił I rozbiór Polski?",
+					"photo": "I-rozbior-polski.jpg",
+					"answers": ["1795", "1772", "1775", "1793"],
+					"correct": 1
+				},
+				{
+					"question": "Kto uczestniczył w III rozbiorze Polski?",
+					"photo": "III-rozbior-polski.jpg",
+					"answers": ["Rosja i Austria", "Rosja, Prusy i Austria", "Rosja i Prusy"],
+					"correct": 1
+				},
+				{
+					"question": "Kto znalazł drogę morską do Indii?",
+					"photo": "indie.jpg",
+					"answers": ["Krzysztof Kolumb", "Ferdynand Magellan", "Vasco da Gama", "Mikołaj Kopernik"],
+					"correct": 2
+				},
+				{
+					"question": "Czyj życiorys przedstawiony jest na Drzwiach Królewskich osadzonych w bazylice w Gnieźnie?",
+					"photo": "drzwi-gnieznienskie.jpg",
+					"answers": ["Mieszka III Starego", "Św. Wojciecha", "Bolesława Krzywoustego"],
+					"correct": 1
+				},
+				{
+					"question": "Jakie stanowisko objął w 1918r. Józef Piłsudski?",
+					"photo": "jozef-pilsudski.jpg",
+					"answers": ["Naczelnika Państwa", "Prezydenta Polski"],
+					"correct": 0
+				},
+				{
+					"question": "Hołd Pruski miał miejsce w:",
+					"photo": "hold-pruski.jpg",
+					"answers": ["1522r.", "1525r.", "1524r.", "1520r."],
+					"correct": 1
+				},
+				{
+					"question": "W którym wieku żył Gall Anonim?",
+					"photo": "gall-anonim.jpg",
+					"answers": ["XII w.", "XVI w.", "XI w.", "XV w."],
+					"correct": 2
+				},
+				{
+					"question": "Z którymi zwierzętami Hannibal przeprawił się przez Alpy?",
+					"photo": "hannibal.jpg",
+					"answers": ["Słoniami", "Wielbłądami", "Lwami", "Tygrysami"],
+					"correct": 0
+				}
+			]
+		},
+		"food": {
+			"name": "Jedzenie",
+			"questions": [
+				{
+					"question": "Głównym składnikiem risotto jest:",
+					"photo": "risotto.jpg",
+					"answers": ["Kasza", "Ryż", "Makaron"],
+					"correct": 1
+				},
+				{
+					"question": "Który z wymienionych produktów spożywczych się nie psuje?",
+					"photo": "produkty-spozywcze.jpg",
+					"answers": ["Mąka", "Cebula", "Czekolada", "Miód", "Papryka"],
+					"correct": 3
+				},
+				{
+					"question": "Jaki kolor miałaby Coca-Cola bez dodatku barwników?",
+					"photo": "coca-cola.jpg",
+					"answers": ["Zielony", "Niebieski", "Żółty", "Czarny", "Brąznowy"],
+					"correct": 0
+				},
+				{
+					"question": "Który owoc jest najzdrowszy?",
+					"photo": "owoce.jpg",
+					"answers": ["Jabłko", "Kiwi", "Truskawka", "Banan", "Arbuz"],
+					"correct": 1
+				},
+				{
+					"question": "Z jakiego maku jest zrobiony farsz w rogalach świętomarcińskich?",
+					"photo": "rogal.jpg",
+					"answers": ["Czarnego", "Niebieskiego", "Białego"],
+					"correct": 2
+				},
+				{
+					"question": "Skąd pochodzą andruty?",
+					"photo": "andruty.jpg",
+					"answers": ["Ze Śląska", "Z Podlasia", "Z Lublina i okolic", "Z Kalisza i okolic"],
+					"correct": 3
+				},
+				{
+					"question": "Na jakim kontynencie zostało wynalezione mleko czekoladowe?",
+					"photo": "mleko-czekoladowe.jpg",
+					"answers": ["Australia", "Azja", "Ameryka Północna", "Ameryka Południowa", "Europa"],
+					"correct": 2
+				},
+				{
+					"question": "Z jakiego kraju pochodził chłopak, który wymuślił pizzę hawajską?",
+					"photo": "pizza-hawajska.jpg",
+					"answers": ["Kanady", "USA", "Chin", "Meksyku"],
+					"correct": 0
+				},
+				{
+					"question": "Jeśli znasz tą potrawę to jakiego mleka w niej użyto?",
+					"photo": "kurczak-curry.jpg",
+					"answers": ["Krowiego", "Kokosowego", "Koziego", "Owczego"],
+					"correct": 1
+				},
+				{
+					"question": "Jakiego rodzaju makaronu użyto w tym daniu?",
+					"photo": "makaron-ze-szpinakiem.jpg",
+					"answers": ["Penne", "Spaghetti", "Tagiatelle", "Farfalle", "Rigatoni"],
+					"correct": 2
+				},
+				{
+					"question": "Która z wymienionych papryczek jest najostrzejsza?",
+					"photo": "papryczki.jpg",
+					"answers": ["Carolina Reaper", "Naga Viper", "Seven Pot Habanero", "Jalapeño"],
+					"correct": 0
+				},
+				{
+					"question": "Pinacolada to połączenie:",
+					"photo": "pinacolada.jpg",
+					"answers": ["Ananasa i mleka", "Brzoskwini i mleka", "Brzoskwini i ananasa", "Kokosa i ananasa", "Kokosa i brzoskwini"],
+					"correct": 3
+				},
+				{
+					"question": "'De volaille' w nazwie znanego kotleta oznacza:",
+					"photo": "de-volaille.jpg",
+					"answers": ["Zawijany", "Z drobiu", "Nadziewany"],
+					"correct": 1
+				},
+				{
+					"question": "Do przyrządzania makaroników potrzebne są mielone:",
+					"photo": "makaroniki.jpeg",
+					"answers": ["Migdały", "Orzechy włoskie", "Pistacje", "Orzechy ziemne"],
+					"correct": 0
+				},
+				{
+					"question": "Arborio to:",
+					"photo": "jedzenie.jpg",
+					"answers": ["Mocno czosnkowe risotto", "Sposób gotowania makaronu", "Odmiana ryżu", "Sposób przyrządzania ryby"],
+					"correct": 2
+				}
+			]
+		},
+		"sport": {
+			"name": "Sport",
+			"questions":[
+				{
+					"question": "Która dyscyplina sportowa nie należy do gry zespołowej?",
+					"photo": "sport.jpg",
+					"answers": ["Piłka nożna", "Siatkówka", "Golf", "Krykiet"],
+					"correct": 2
+				},
+				{
+					"question": "Ilu zawodników wchodzi w skład drużuny siatkarskiej?",
+					"photo": "siatkowka.jpg",
+					"answers": ["6", "8", "5", "7"],
+					"correct": 0
+				},
+				{
+					"question": "Jaki dystans muszą pokonać biegacze podczas maratonu?",
+					"photo": "maraton.jpg",
+					"answers": ["40 km", "41,150 km", "42 km", "42,195 km"],
+					"correct": 3
+				},
+				{
+					"question": "Ile razy Adam Małysz zdobył złoty medal na Mistrzostwach świata w skokach narciarskich?",
+					"photo": "adam-malysz.jpg",
+					"answers": ["3", "4", "5", "2"],
+					"correct": 1
+				},
+				{
+					"question": "Nie więcej niż ile kroków z piłką może wykonać zawodnik piłki ręcznej?",
+					"photo": "pilka-reczna.jpg",
+					"answers": ["3", "2", "4", "0"],
+					"correct": 0
+				},
+				{
+					"question": "Co ile lat odbywają się Igrzyska Olimpijskie?",
+					"photo": "igrzyska-olimpijskie.jpg",
+					"answers": ["2", "5", "4", "6"],
+					"correct": 2
+				},
+				{
+					"question": "W jakim sporcie wykorzystywana jest ta piłka?",
+					"photo": "hokej-na-trawie.jpg",
+					"answers": ["Golf", "Hokej na trawie", "Tenis", "Krykiet"],
+					"correct": 1
+				},
+				{
+					"question": "W jakiej odległości od bramki znajduje się linia wyznaczająca początek pola karnego w piłce nożnej?",
+					"photo": "pilka-nozna.jpg",
+					"answers": ["16,5 metra", "11 metrów", "18 metrów", "20 metrów"],
+					"correct": 0
+				},
+				{
+					"question": "Ile wgłebień ma przeciętna piłka golfowa?",
+					"photo": "pilka-golfowa.jpg",
+					"answers": ["789", "111", "265", "336"],
+					"correct": 3
+				},
+				{
+					"question": "Jak nazywa się broń używana w szermierce?",
+					"photo": "szermierka.jpg",
+					"answers": ["Szpada", "Dzida", "Floret", "Szabla"],
+					"correct": 2
+				},
+				{
+					"question": "Softball jest grą podobną do:",
+					"photo": "softball.jpg",
+					"answers": ["Piłki nożnej", "Baseballu", "Krykieta", "Koszykówki"],
+					"correct": 1
+				},
+				{
+					"question": "W której dyscyplinie sportu jeden z zawodników pełni funkcję libero?",
+					"photo": "sport-2.jpg",
+					"answers": ["W siatkówce", "W krykiecie", "W rugby", "W piłce ręcznej"],
+					"correct": 0
+				},
+				{
+					"question": "Podnoszenie ciężarów: jakiego koloru jest obciążnik o wadze 25 kg?",
+					"photo": "podnoszenie-ciezarow.jpg",
+					"answers": ["Żółtego", "Zielonego", "Czerwonego", "Niebieskiego"],
+					"correct": 2
+				},
+				{
+					"question": "Mecz tenisa jest dzielony na:",
+					"photo": "tenis.jpg",
+					"answers": ["Sety, które składają się z gemów", "Gemy, które składają się z setów"],
+					"correct": 0
+				},
+				{
+					"question": "Czy kolarstwo szosowe jest w programie Igrzysk Olimpijskich?",
+					"photo": "kolarstwo-szosowe.jpg",
+					"answers": ["Tak", "Nie"],
+					"correct": 0
+				}
+			]
+		}		
+	}
+}
