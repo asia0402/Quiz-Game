@@ -25,7 +25,7 @@ class SelectedCategory extends StatelessWidget {
         Expanded(
           flex: 8,
           child: ListView.separated(
-            padding: EdgeInsets.all(8.0),
+            padding: const EdgeInsets.all(8.0),
             itemCount: categories.length,
             itemBuilder: (BuildContext context, int index) {
               String key = categories.keys.elementAt(index);

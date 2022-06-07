@@ -6,7 +6,7 @@ class GameInterface extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: MediaQuery.of(context).size.height,
       child: const GameMenager(),
     );
